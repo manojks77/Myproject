@@ -1,0 +1,28 @@
+[
+    {
+        "@context": "https://w3id.org/did/v1",
+        "id": "did:web:2be28dcd-97ed-4ca8-b90f-37cd3a86cf9a",
+        "alsoKnownAs": [
+            "did.test@gmail.com.test"
+        ],
+        "service": [],
+        "verificationMethod": [
+            {
+                "id": "did:web:2be28dcd-97ed-4ca8-b90f-37cd3a86cf9a#key-0",
+                "type": "JsonWebKey2020",
+                "publicKeyJwk": {
+                    "kty": "OKP",
+                    "crv": "Ed25519",
+                    "x": "AJMHPf8NMAE1YkXg_tayJNBU8YIeETPrEkZoAT9GMLQ"
+                },
+                "controller": "did:web:2be28dcd-97ed-4ca8-b90f-37cd3a86cf9a"
+            }
+        ],
+        "authentication": [
+            "did:web:2be28dcd-97ed-4ca8-b90f-37cd3a86cf9a#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:2be28dcd-97ed-4ca8-b90f-37cd3a86cf9a#key-0"
+        ]
+    }
+]
