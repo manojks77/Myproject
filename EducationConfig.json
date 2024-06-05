@@ -7,7 +7,7 @@
 {
 "@context": [
 "https://www.w3.org/2018/credentials/v1",
-"https://manojks77.github.io/Myproject/education-context.json",
+"https://raw.githubusercontent.com/manojks77/Myproject/main/EducationConfig.json",
     {
       "UniEducationCredential": {
       "@id":"EducationCredential"
