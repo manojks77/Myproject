@@ -6,13 +6,8 @@
 #set( $expiry =$calenderNow.add(5,30))
 {
 "@context": [
-"https://www.w3.org/2018/credentials/v1",
-"https://raw.githubusercontent.com/manojks77/Myproject/main/EducationConfig.json",
-    {
-      "UniEducationCredential": {
-      "@id":"EducationCredential"
-      }
-    }
+"https://www.w3.org/2018/credentials/v1"
+
 ],
 "type": [
 "VerifiableCredential",
